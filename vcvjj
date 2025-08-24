@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Versus - Textos Motivacionais</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #fafafa; text-align: center; padding: 50px; }
+        #textoMotivacional { font-size: 1.5em; margin: 30px 0; }
+        button { padding: 10px 20px; font-size: 1em; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Versus</h1>
+    <div id="textoMotivacional"></div>
+    <button onclick="mostrarNovoTexto()">Novo texto</button>
+    <script src="script.js"></script>
+</body>
+</html>
